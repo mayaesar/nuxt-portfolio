@@ -8,7 +8,6 @@
 =======
     <div class="flex flex-col items-center max-w-3xl w-full">
       <div>
->>>>>>> Stashed changes
         <img
           src="/portfolioText.png"
           alt="Maya Esar Avatar"
