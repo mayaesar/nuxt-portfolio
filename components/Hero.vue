@@ -2,7 +2,7 @@
 
 <template>
   <section class="flex-1 flex flex-col items-center mt-6">
-    <div class="flex flex-col items-center max-w-3xl w-full">
+    <div class="flex flex-col items-center max-w-3xl w-full mx-auto">
       <div class="mb-6">
         <img
           src="/portfolioText.png"
