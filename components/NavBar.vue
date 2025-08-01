@@ -46,6 +46,13 @@ const items = ref<NavigationMenuItem[][]>([
 
 <template>
   <div>
-    <UNavigationMenu color="neutral" :items="items" class="w-full" />
+    <UNavigationMenu color="neutral" :items="items" class="w-full">
+      <template #item="{ item }">
+        <div class="flex items-center gap-2">
+          <UIcon v-if="item.icon" :name="item.icon" class="size-6" />
+          <span class="hidden md:inline text-xl">{{ item.label }}</span>
+        </div>
+      </template>
+    </UNavigationMenu>
   </div>
 </template>
