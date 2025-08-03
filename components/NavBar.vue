@@ -9,11 +9,6 @@ const items = ref<NavigationMenuItem[][]>([
       to: "/",
     },
     {
-      label: "About me",
-      icon: "lucide:smile",
-      to: "/",
-    },
-    {
       label: "Projects",
       icon: "lucide:file-code-2",
       to: "/",
